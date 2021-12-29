@@ -16,3 +16,12 @@ background-color: #e7e7e7;
     font-size: 22px;
     font-weight: normal;
 }
+
+p { 
+    display: flex;
+    margin: 25px 0;
+}
+
+svg {
+    margin-right: 20px;
+}

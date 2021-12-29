@@ -1,5 +1,11 @@
 import React from 'react';
 import './Result.css';
+import WbSunnyOutlined from '@mui/icons-material/WbSunnyOutlined';
+import NightlightRoundOutlined from '@mui/icons-material/NightlightRoundOutlined';
+import AirOutlinedIcon from '@mui/icons-material/AirOutlined';
+import CompressOutlinedIcon from '@mui/icons-material/CompressOutlined';
+import DeviceThermostatOutlinedIcon from '@mui/icons-material/DeviceThermostatOutlined';
+
 
 const Result = (props) => {
 
@@ -22,11 +28,11 @@ const Result = (props) => {
                 <div className='divider'></div>
                 <h1>Wyniki wyszukiwania dla <em>{cityLowerCase}</em></h1>
                 <p>Dane dla dnia i godziny: {date}</p>
-                <p>Aktualana temperatura: {tempRounded} &#176;C</p>
-                <p>Wschód słońca dzisiaj o {sunriseTime}</p>
-                <p>Zachód słońca dzisiaj o {sunsetTime}</p>
-                <p>Aktualna siła wiatru {wind} m/s</p>
-                <p>Aktualne ciśnienie {pressure} hPa</p>
+                <p><DeviceThermostatOutlinedIcon/>Aktualana temperatura: {tempRounded} &#176;C</p>
+                <p><WbSunnyOutlined/> Wschód słońca dzisiaj o {sunriseTime}</p>
+                <p><NightlightRoundOutlined/>Zachód słońca dzisiaj o {sunsetTime}</p>
+                <p><AirOutlinedIcon />Aktualna siła wiatru {wind} m/s</p>
+                <p><CompressOutlinedIcon/>Aktualne ciśnienie {pressure} hPa</p>
 
             </>
         )

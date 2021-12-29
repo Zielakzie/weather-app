@@ -1,8 +1,41 @@
+body {
+margin: auto;
+height: 100vh;
+max-width: 1200px;
+display: flex;
+justify-content: center;
+min-height: -webkit-fill-available;
+align-items: center;
+
+}
+
+.app {
+width: 600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #faf9f9;
+border-radius: 10px;
+justify-content: center;
+padding: 50px;
+
+}
+
 .app input, .app button {
     margin: 20px 5px 20px 20px;
     padding: 10px 20px;
     border: 2px solid gray;
-    background-color: white;
+    background-color: #faf9f9;
+    outline: none;
+    border-radius: 6px;
+}
+
+.app button {
+    background-color: #89b0ae;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: #89b0ae;
 }
 
 .app button {
@@ -10,8 +43,8 @@
 }
 
 .app button:hover {
-    background-color: black;
+    background-color: #719290;
     color: white;
-    border-color: black;
+    border-color: #719290;
     transition: 0.3s;
 }
