@@ -1,11 +1,12 @@
 body {
 margin: auto;
 height: 100vh;
-max-width: 1200px;
+max-width: 100%;
 display: flex;
 justify-content: center;
 min-height: -webkit-fill-available;
 align-items: center;
+text-align: center;
 
 }
 
@@ -17,8 +18,7 @@ align-items: center;
 background-color: #faf9f9;
 border-radius: 10px;
 justify-content: center;
-padding: 50px;
-
+padding: 35px;
 }
 
 .app input, .app button {
